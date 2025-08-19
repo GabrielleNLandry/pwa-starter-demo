@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My PWA Starter DEMO</title>
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My PWA Starter DEMO</h1>
+    <p class="tagline">By: Gabrielle Landry</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>What is this?</h2>
+      <p>
+        This is a Progressive Web Application DEMO for a mobile app development class.  
+        It’s powered by <code>app.js</code>, which registers a Service Worker and also 
+        adds some interactive JavaScript.
+      </p>
+
+      <!-- Interactive demo button -->
+      <button id="demoBtn">Click Me!</button>
+      <p id="demoMessage" class="muted"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for CMPS – PWA Demo Assignment</p>
+  </footer>
+
+  <!-- Link the JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
+
